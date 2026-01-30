@@ -57,10 +57,10 @@ export interface Achievement {
 const initialUsers: User[] = [
   {
     id: "user1",
-    username: "GamingPro",
+    username: "Azln",
     email: "user@example.com",
     coins: 1000,
-    name: "John Doe",
+    name: "Azln",
     score: 1250,
     completedQuizzes: ["lol_easy", "val_medium"],
     completedChallenges: ["c1", "c5"],
@@ -676,7 +676,7 @@ const initialQuizzes: Quiz[] = [
         id: "gen_medium_1",
         question: "In what year did Taitus make his steam account?",
         options: ["2012", "2013", "2014", "2014"],
-        correctAnswer: 2013",
+        correctAnswer: "2013",
         points: 15,
       },
       {
